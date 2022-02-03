@@ -57,7 +57,7 @@
                                     <ul id="navigation">    
                                         <li class="active"><a href="index.html"> Home</a></li>
                                         <li><a href="">Feature</a></li>
-                                        <li><a href="">Team</a></li>
+                                        <li><a href="#team">Team</a></li>
                                         <li><a href="">Download </a></li>
                                         <!-- <li><a href="#">Pages</a>
                                             <ul class="submenu">
@@ -211,11 +211,11 @@
         <!-- Best Features End -->
         <!-- Services Area Start -->
         <section class="service-area sky-blue section-padding2">
-            <div class="container">
+            <div class="container" id="team">
                 <!-- Section Tittle -->
                 <div class="row d-flex justify-content-center">
                     <div class="col-lg-6">
-                        <div class="section-tittle text-center">
+                        <div class="section-tittle text-center" >
                             <h2>Our Beloved Team <br>for Petspital</h2>
                         </div>
                     </div>
@@ -671,6 +671,14 @@
 		<!-- Jquery Plugins, main Jquery -->	
         <script src="./assets/js/plugins.js"></script>
         <script src="./assets/js/main.js"></script>
+
+
+        <!-- scroll -->
+
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js"></script>
+        <script>
+            var scroll = new SmoothScroll('a[href*="#"]');
+        </script>
         
     </body>
 </html>
